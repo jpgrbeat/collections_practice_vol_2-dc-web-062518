@@ -1,0 +1,31 @@
+
+[1mFrom:[0m /home/jpgrbeat/collections_practice_vol_2-dc-web-062518/collections_practice.rb @ line 75 Object#organize_schools:
+
+    [1;34m52[0m: [32mdef[0m [1;34morganize_schools[0m(schools)
+    [1;34m53[0m:   [1;34m# let(:schools) {[0m
+    [1;34m54[0m:   [1;34m#   {[0m
+    [1;34m55[0m:   [1;34m#     "flatiron school bk" => {[0m
+    [1;34m56[0m:   [1;34m#       :location => "NYC"[0m
+    [1;34m57[0m:   [1;34m#     },[0m
+    [1;34m58[0m:   [1;34m#     "flatiron school" => {[0m
+    [1;34m59[0m:   [1;34m#       :location => "NYC"[0m
+    [1;34m60[0m:   [1;34m#     },[0m
+    [1;34m61[0m:   [1;34m#     "dev boot camp" => {[0m
+    [1;34m62[0m:   [1;34m#       :location => "SF"[0m
+    [1;34m63[0m:   [1;34m#     },[0m
+    [1;34m64[0m:   [1;34m#     "dev boot camp chicago" => {[0m
+    [1;34m65[0m:   [1;34m#       :location => "Chicago"[0m
+    [1;34m66[0m:   [1;34m#     },[0m
+    [1;34m67[0m:   [1;34m#     "general assembly" => {[0m
+    [1;34m68[0m:   [1;34m#       :location => "NYC"[0m
+    [1;34m69[0m:   [1;34m#     },[0m
+    [1;34m70[0m:   [1;34m#     "Hack Reactor" => {[0m
+    [1;34m71[0m:   [1;34m#       :location => "SF"[0m
+    [1;34m72[0m:   [1;34m#     }[0m
+    [1;34m73[0m:   [1;34m#   }[0m
+    [1;34m74[0m:   [1;34m# }[0m
+ => [1;34m75[0m:   binding.pry
+    [1;34m76[0m:   nyc = schools.map{|key,value| value.include?([31m[1;31m"[0m[31mNYC[1;31m"[0m[31m[0m) ? key : [1;36mnil[0m}.compact
+    [1;34m77[0m:   nyc
+    [1;34m78[0m: [32mend[0m
+
